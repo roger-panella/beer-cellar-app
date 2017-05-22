@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3E02FD6A1ED0DDC900BC3A41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FD691ED0DDC900BC3A41 /* AppDelegate.swift */; };
-		3E02FD6C1ED0DDC900BC3A41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FD6B1ED0DDC900BC3A41 /* ViewController.swift */; };
-		3E02FD6F1ED0DDC900BC3A41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E02FD6D1ED0DDC900BC3A41 /* Main.storyboard */; };
+		3E02FD6C1ED0DDC900BC3A41 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FD6B1ED0DDC900BC3A41 /* LoginViewController.swift */; };
 		3E02FD711ED0DDC900BC3A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E02FD701ED0DDC900BC3A41 /* Assets.xcassets */; };
 		3E02FD741ED0DDC900BC3A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E02FD721ED0DDC900BC3A41 /* LaunchScreen.storyboard */; };
 		3E02FD7F1ED0DDC900BC3A41 /* BlubbrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FD7E1ED0DDC900BC3A41 /* BlubbrTests.swift */; };
 		3E02FD8A1ED0DDC900BC3A41 /* BlubbrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FD891ED0DDC900BC3A41 /* BlubbrUITests.swift */; };
+		3E02FDD41ED28E3F00BC3A41 /* DesignConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FDD31ED28E3F00BC3A41 /* DesignConstants.swift */; };
+		3E02FDFF1ED299E900BC3A41 /* UntappdAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FDFE1ED299E900BC3A41 /* UntappdAuthenticator.swift */; };
+		3E02FE021ED29AC100BC3A41 /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FE011ED29AC100BC3A41 /* UserDefaultsExtensions.swift */; };
+		3E02FE041ED29ED100BC3A41 /* NotificationCenterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FE031ED29ED100BC3A41 /* NotificationCenterExtensions.swift */; };
+		672702679697DEDAFC71D146 /* Pods_Blubbr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B0A35D224D56EC139A30B6 /* Pods_Blubbr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +40,7 @@
 /* Begin PBXFileReference section */
 		3E02FD661ED0DDC900BC3A41 /* Blubbr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blubbr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E02FD691ED0DDC900BC3A41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E02FD6B1ED0DDC900BC3A41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3E02FD6E1ED0DDC900BC3A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E02FD6B1ED0DDC900BC3A41 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3E02FD701ED0DDC900BC3A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E02FD731ED0DDC900BC3A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E02FD751ED0DDC900BC3A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,14 @@
 		3E02FD851ED0DDC900BC3A41 /* BlubbrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlubbrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E02FD891ED0DDC900BC3A41 /* BlubbrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlubbrUITests.swift; sourceTree = "<group>"; };
 		3E02FD8B1ED0DDC900BC3A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E02FDD31ED28E3F00BC3A41 /* DesignConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignConstants.swift; sourceTree = "<group>"; };
+		3E02FDFA1ED2996900BC3A41 /* BlubbrServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlubbrServices.framework; path = "BlubbrServices/build/Debug-iphoneos/BlubbrServices.framework"; sourceTree = "<group>"; };
+		3E02FDFE1ED299E900BC3A41 /* UntappdAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UntappdAuthenticator.swift; sourceTree = "<group>"; };
+		3E02FE011ED29AC100BC3A41 /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtensions.swift; sourceTree = "<group>"; };
+		3E02FE031ED29ED100BC3A41 /* NotificationCenterExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCenterExtensions.swift; sourceTree = "<group>"; };
+		57B843345BCAB4DAB4CA3B32 /* Pods-Blubbr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blubbr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blubbr/Pods-Blubbr.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD4CAEA2C4F506A12674BDB /* Pods-Blubbr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blubbr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blubbr/Pods-Blubbr.release.xcconfig"; sourceTree = "<group>"; };
+		93B0A35D224D56EC139A30B6 /* Pods_Blubbr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blubbr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672702679697DEDAFC71D146 /* Pods_Blubbr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,8 @@
 				3E02FD7D1ED0DDC900BC3A41 /* BlubbrTests */,
 				3E02FD881ED0DDC900BC3A41 /* BlubbrUITests */,
 				3E02FD671ED0DDC900BC3A41 /* Products */,
+				5B2A5BCFAB223B7319875638 /* Pods */,
+				74B23A27BAB19E8C94CEFC06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +111,14 @@
 		3E02FD681ED0DDC900BC3A41 /* Blubbr */ = {
 			isa = PBXGroup;
 			children = (
+				3E02FE051ED2A0B800BC3A41 /* Extensions */,
+				3E02FE001ED29A2600BC3A41 /* Services */,
+				3E02FDD51ED2904800BC3A41 /* ViewControllers */,
 				3E02FD691ED0DDC900BC3A41 /* AppDelegate.swift */,
-				3E02FD6B1ED0DDC900BC3A41 /* ViewController.swift */,
-				3E02FD6D1ED0DDC900BC3A41 /* Main.storyboard */,
 				3E02FD701ED0DDC900BC3A41 /* Assets.xcassets */,
 				3E02FD721ED0DDC900BC3A41 /* LaunchScreen.storyboard */,
 				3E02FD751ED0DDC900BC3A41 /* Info.plist */,
+				3E02FDD31ED28E3F00BC3A41 /* DesignConstants.swift */,
 			);
 			path = Blubbr;
 			sourceTree = "<group>";
@@ -125,6 +141,49 @@
 			path = BlubbrUITests;
 			sourceTree = "<group>";
 		};
+		3E02FDD51ED2904800BC3A41 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E02FD6B1ED0DDC900BC3A41 /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3E02FE001ED29A2600BC3A41 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3E02FDFE1ED299E900BC3A41 /* UntappdAuthenticator.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		3E02FE051ED2A0B800BC3A41 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E02FE011ED29AC100BC3A41 /* UserDefaultsExtensions.swift */,
+				3E02FE031ED29ED100BC3A41 /* NotificationCenterExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		5B2A5BCFAB223B7319875638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57B843345BCAB4DAB4CA3B32 /* Pods-Blubbr.debug.xcconfig */,
+				7CD4CAEA2C4F506A12674BDB /* Pods-Blubbr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74B23A27BAB19E8C94CEFC06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E02FDFA1ED2996900BC3A41 /* BlubbrServices.framework */,
+				93B0A35D224D56EC139A30B6 /* Pods_Blubbr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E02FD8E1ED0DDC900BC3A41 /* Build configuration list for PBXNativeTarget "Blubbr" */;
 			buildPhases = (
+				21B36556D3BC85194D192174 /* [CP] Check Pods Manifest.lock */,
 				3E02FD621ED0DDC900BC3A41 /* Sources */,
 				3E02FD631ED0DDC900BC3A41 /* Frameworks */,
 				3E02FD641ED0DDC900BC3A41 /* Resources */,
+				DFCEFF3AE6AD9F6A9CAC5252 /* [CP] Embed Pods Frameworks */,
+				FD65D8176F176B99312FAE0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +299,6 @@
 			files = (
 				3E02FD741ED0DDC900BC3A41 /* LaunchScreen.storyboard in Resources */,
 				3E02FD711ED0DDC900BC3A41 /* Assets.xcassets in Resources */,
-				3E02FD6F1ED0DDC900BC3A41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +318,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21B36556D3BC85194D192174 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCEFF3AE6AD9F6A9CAC5252 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blubbr/Pods-Blubbr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD65D8176F176B99312FAE0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Blubbr/Pods-Blubbr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E02FD621ED0DDC900BC3A41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E02FD6C1ED0DDC900BC3A41 /* ViewController.swift in Sources */,
+				3E02FE041ED29ED100BC3A41 /* NotificationCenterExtensions.swift in Sources */,
+				3E02FDFF1ED299E900BC3A41 /* UntappdAuthenticator.swift in Sources */,
+				3E02FE021ED29AC100BC3A41 /* UserDefaultsExtensions.swift in Sources */,
+				3E02FD6C1ED0DDC900BC3A41 /* LoginViewController.swift in Sources */,
 				3E02FD6A1ED0DDC900BC3A41 /* AppDelegate.swift in Sources */,
+				3E02FDD41ED28E3F00BC3A41 /* DesignConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +412,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3E02FD6D1ED0DDC900BC3A41 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3E02FD6E1ED0DDC900BC3A41 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3E02FD721ED0DDC900BC3A41 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -359,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -415,9 +520,14 @@
 		};
 		3E02FD8F1ED0DDC900BC3A41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B843345BCAB4DAB4CA3B32 /* Pods-Blubbr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 54TP428475;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BlubbrServices/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Blubbr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blubbr.Blubbr;
@@ -428,9 +538,14 @@
 		};
 		3E02FD901ED0DDC900BC3A41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD4CAEA2C4F506A12674BDB /* Pods-Blubbr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 54TP428475;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BlubbrServices/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Blubbr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blubbr.Blubbr;
@@ -516,6 +631,7 @@
 				3E02FD901ED0DDC900BC3A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E02FD911ED0DDC900BC3A41 /* Build configuration list for PBXNativeTarget "BlubbrTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +640,7 @@
 				3E02FD931ED0DDC900BC3A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E02FD941ED0DDC900BC3A41 /* Build configuration list for PBXNativeTarget "BlubbrUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +649,7 @@
 				3E02FD961ED0DDC900BC3A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
