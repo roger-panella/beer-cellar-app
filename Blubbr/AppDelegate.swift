@@ -18,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = LoginViewController()
         window?.makeKeyAndVisible()
+        let searchService = BeerSearchService(searchQuery: "Pliny")
+        searchService.performBeerSearch()
         return true
     }
 

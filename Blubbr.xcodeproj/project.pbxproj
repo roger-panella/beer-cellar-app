@@ -18,6 +18,9 @@
 		3E02FE021ED29AC100BC3A41 /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FE011ED29AC100BC3A41 /* UserDefaultsExtensions.swift */; };
 		3E02FE041ED29ED100BC3A41 /* NotificationCenterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02FE031ED29ED100BC3A41 /* NotificationCenterExtensions.swift */; };
 		672702679697DEDAFC71D146 /* Pods_Blubbr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B0A35D224D56EC139A30B6 /* Pods_Blubbr.framework */; };
+		E41C97371ED92B3F006DCAB3 /* BeerSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41C97361ED92B3F006DCAB3 /* BeerSearchService.swift */; };
+		E41C97391ED92FD3006DCAB3 /* BeerSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41C97381ED92FD3006DCAB3 /* BeerSearchResponse.swift */; };
+		E4D436FA1ED9B33B00C23919 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D436F91ED9B33B00C23919 /* Beer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		57B843345BCAB4DAB4CA3B32 /* Pods-Blubbr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blubbr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Blubbr/Pods-Blubbr.debug.xcconfig"; sourceTree = "<group>"; };
 		7CD4CAEA2C4F506A12674BDB /* Pods-Blubbr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blubbr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Blubbr/Pods-Blubbr.release.xcconfig"; sourceTree = "<group>"; };
 		93B0A35D224D56EC139A30B6 /* Pods_Blubbr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blubbr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41C97361ED92B3F006DCAB3 /* BeerSearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerSearchService.swift; sourceTree = "<group>"; };
+		E41C97381ED92FD3006DCAB3 /* BeerSearchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerSearchResponse.swift; sourceTree = "<group>"; };
+		E4D436F91ED9B33B00C23919 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +158,9 @@
 		3E02FE001ED29A2600BC3A41 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E4D436FB1ED9B60800C23919 /* Model */,
 				3E02FDFE1ED299E900BC3A41 /* UntappdAuthenticator.swift */,
+				E41C97361ED92B3F006DCAB3 /* BeerSearchService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -182,6 +190,15 @@
 				93B0A35D224D56EC139A30B6 /* Pods_Blubbr.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4D436FB1ED9B60800C23919 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E41C97381ED92FD3006DCAB3 /* BeerSearchResponse.swift */,
+				E4D436F91ED9B33B00C23919 /* Beer.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,10 +389,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E02FE041ED29ED100BC3A41 /* NotificationCenterExtensions.swift in Sources */,
+				E4D436FA1ED9B33B00C23919 /* Beer.swift in Sources */,
+				E41C97371ED92B3F006DCAB3 /* BeerSearchService.swift in Sources */,
 				3E02FDFF1ED299E900BC3A41 /* UntappdAuthenticator.swift in Sources */,
 				3E02FE021ED29AC100BC3A41 /* UserDefaultsExtensions.swift in Sources */,
 				3E02FD6C1ED0DDC900BC3A41 /* LoginViewController.swift in Sources */,
 				3E02FD6A1ED0DDC900BC3A41 /* AppDelegate.swift in Sources */,
+				E41C97391ED92FD3006DCAB3 /* BeerSearchResponse.swift in Sources */,
 				3E02FDD41ED28E3F00BC3A41 /* DesignConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
